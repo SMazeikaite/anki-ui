@@ -1,0 +1,57 @@
+:host {
+    display: block;
+}
+
+.header {
+    .left {
+        margin: 0;
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Luckiest Guy';
+    }
+}
+
+.profile-text {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.flexbox {
+    // TODO remove -webkit, etc.
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.today {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff34;
+    border-radius: 8px;
+    width: 70%;
+    height: 2em;
+    margin: auto;
+    margin-top: 1em;
+
+    .text {
+        display: flex;
+        // font-family: 'Josefin Sans';
+        font-family: 'Shadows Into Light';
+        font-size: 1rem;
+        text-align: center;
+        justify-content: center;
+        color: var(--gray-10);
+
+        .total-text {
+            font-weight: 800;
+            color: var(--purple-40);
+        }
+    }
+}
+
+app-activity-visualiser {
+    padding-top: 2em;
+}

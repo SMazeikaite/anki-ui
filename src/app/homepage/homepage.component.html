@@ -1,0 +1,15 @@
+<div class="header"> 
+    <div class="left">
+        <span *ngFor="let word of title.split(' '); let i = index"><span appRandomColor>{{ word }} </span></span> <span
+            class="profile-text"> [PROFILE]</span>
+    </div>
+    <div class="right">
+
+    </div>
+</div>
+
+<div class="today">
+    <span class="text"> Cards reviewed today:<span class="total-text"> &nbsp; {{ service.cardsReviewedToday }} </span></span>
+</div>
+
+<app-activity-visualiser></app-activity-visualiser>

@@ -1,1 +1,124 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    // Teal
+    --teal-10: #e6fff6;
+    --teal-20: #ccfff0;
+    --teal-30: #b3ffe9;
+    --teal-40: #99ffe2;
+    --teal-50: #80ffdc;
+    --teal-60: #66ffd5;
+    --teal-70: #4cffce;
+    --teal-80: #33ffc8;
+    --teal-90: #1affc1;
+    --teal-100: #00ffba;
+
+
+    // Gray:
+    --gray-10: #f2f2f2;
+    --gray-20: #e6e6e6;
+    --gray-30: #cccccc;
+    --gray-40: #b3b3b3;
+    --gray-50: #999999;
+    --gray-60: #808080;
+    --gray-70: #666666;
+    --gray-80: #4d4d4d;
+    --gray-90: #333333;
+    --gray-100: #1a1a1a;
+    
+    // Red:
+    --red-10: #ffe6e6;
+    --red-20: #ffcccc;
+    --red-30: #ffb3b3;
+    --red-40: #ff9999;
+    --red-50: #ff8080;
+    --red-60: #ff6666;
+    --red-70: #ff4d4d;
+    --red-80: #ff3333;
+    --red-90: #ff1a1a;
+    --red-100: #ff0000;
+    
+    // Blue:
+    --blue-10: #e6f7ff;
+    --blue-20: #ccefff;
+    --blue-30: #b3dfff;
+    --blue-40: #99d6ff;
+    --blue-50: #80ccff;
+    --blue-60: #66b2ff;
+    --blue-70: #4da8e6;
+    --blue-80: #3385ff;
+    --blue-90: #1a66cc;
+    --blue-100: #0047b3;
+    
+    // Green:
+    --green-10: #d9ffcc;
+    --green-20: #b3ff99;
+    --green-30: #8cff66;
+    --green-40: #66ff33;
+    --green-50: #4dff00;
+    --green-60: #33cc00;
+    --green-70: #1f9900;
+    --green-80: #0d6600;
+    --green-90: #004d00;
+    --green-100: #003300;
+    
+    // Orange:
+    --orange-10: #fff2e6;
+    --orange-20: #ffd9b3;
+    --orange-30: #ffbf80;
+    --orange-40: #ffa64d;
+    --orange-50: #ff8c1a;
+    --orange-60: #e67300;
+    --orange-70: #b35900;
+    --orange-80: #804000;
+    --orange-90: #4d2600;
+    --orange-100: #1a0d00;
+    
+    // Purple:
+    --purple-10: #f2e6ff;
+    --purple-20: #d9b3ff;
+    --purple-30: #bf80ff;
+    --purple-40: #a64dff;
+    --purple-50: #8c1aff;
+    --purple-60: #7326e6;
+    --purple-70: #591ac6;
+    --purple-80: #400080;
+    --purple-90: #26004d;
+    --purple-100: #130026;
+    
+    // Yellow:
+    --yellow-10: #ffffe6;
+    --yellow-20: #ffffcc;
+    --yellow-30: #ffffb3;
+    --yellow-40: #ffff99;
+    --yellow-50: #ffff80;
+    --yellow-60: #ffff66;
+    --yellow-70: #ffff4d;
+    --yellow-80: #ffff33;
+    --yellow-90: #ffff1a;
+    --yellow-100: #ffff00;
+    
+    // Brown:
+    --brown-10: #f2e6d9;
+    --brown-20: #e0ccbf;
+    --brown-30: #c7b299;
+    --brown-40: #ad997f;
+    --brown-50: #948066;
+    --brown-60: #7a664d;
+    --brown-70: #614c33;
+    --brown-80: #473219;
+    --brown-90: #2e1f00;
+    --brown-100: #140d00;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+* {
+    box-sizing: border-box;
+}
